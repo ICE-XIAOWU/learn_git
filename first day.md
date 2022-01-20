@@ -8,7 +8,7 @@ $ ssh-keygen -t rsa -C "your_email@example.com" Generating public/private rsa ke
 Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa): 按回车键   
 Enter passphrase (empty for no passphrase): 输入密码   
 Enter same passphrase again: 再次输入密码  
-#### 2.2 输入密码后会出现一下截图
+#### 2.2 输入密码后会出现以下截图
 ![image](https://raw.githubusercontent.com/ICE-XIAOWU/picxImg/master/picxImg/image.6bwmlm3ntd80.webp)
 
 #### 2.3 在github上添加了ssh公开的密钥使用以下命令进行测试
@@ -29,13 +29,13 @@ git clone git@github.com:用户名/仓库名
 Cloning into 'Hello-World'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0) Receiving objects: 100% (3/3), done.
-##### 4.2 查看状态
+#### 4.2 查看状态
 git status
 当文件还没被添加到仓库中时，会出现Untracked filesd的提示
-##### 4.3 提交
+#### 4.3 提交
 ###### 4.3.1 git add
 git add命令会将文件加入到暂存区
 ###### 4.3.2 git commit
 git commit命令将文件进行提交到本地（疑惑）
-##### 4.4 git push
+#### 4.4 git push
 git push将文件提交到github
