@@ -1,13 +1,13 @@
 ## 1. 本地设置用户名和邮箱
-$ git config --global user.name "Firstname Lastname"
-$ git config --global user.email "your_email@example.com"
+$ git config --global user.name "Firstname Lastname"  
+$ git config --global user.email "your_email@example.com"  
 
 ## 2. SSH
 #### 2.1 创建SSH Key
-$ ssh-keygen -t rsa -C "your_email@example.com" Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa): 按回车键 
-Enter passphrase (empty for no passphrase): 输入密码 
-Enter same passphrase again: 再次输入密码
+$ ssh-keygen -t rsa -C "your_email@example.com" Generating public/private rsa key pair.  
+Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa): 按回车键   
+Enter passphrase (empty for no passphrase): 输入密码   
+Enter same passphrase again: 再次输入密码  
 #### 2.2 输入密码后会出现一下截图
 ![image](https://raw.githubusercontent.com/ICE-XIAOWU/picxImg/master/picxImg/image.6bwmlm3ntd80.webp)
 
