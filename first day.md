@@ -33,9 +33,9 @@ remote: Total 3 (delta 0), reused 0 (delta 0) Receiving objects: 100% (3/3), don
 git status
 当文件还没被添加到仓库中时，会出现Untracked filesd的提示
 #### 4.3 提交
-###### 4.3.1 git add
+###### 4.3.1 git add 文件
 git add命令会将文件加入到暂存区
-###### 4.3.2 git commit
+###### 4.3.2 git commit -m “备注”
 git commit命令将文件进行提交到本地（疑惑）
 #### 4.4 git push
 git push将文件提交到github
